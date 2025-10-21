@@ -1,0 +1,2 @@
+# legiman-samosir
+webpraktikum
