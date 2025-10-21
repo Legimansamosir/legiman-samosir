@@ -1,0 +1,75 @@
+/* ====== STYLE WEBSITE BERITA UINSU ====== */
+
+/* Atur tampilan dasar halaman */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== HEADER ====== */
+header {
+    background: url('header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;          /* bisa kamu ubah jadi 100px kalau mau lebih kecil */
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Judul di tengah gambar header */
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);   /* efek transparan agar tulisan terlihat jelas */
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+/* ====== MENU NAVIGASI ====== */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ====== KONTEN ====== */
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #007bff;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
